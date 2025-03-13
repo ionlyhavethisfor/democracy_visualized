@@ -5,3 +5,4 @@ dash-daq
 dash-bootstrap-components
 scikit-learn
 numpy
+gunicorn
