@@ -30,9 +30,18 @@ project_end_date = 2022
 default_iso = "TUR"
 default_name = "Turkey"
 
+
+
+
+
+#%% Dash App
+
 # =============================================================================
-# STYLE SECTION.
+# DASH APP HTML LAYOUT
 # =============================================================================
+
+app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 app.run_server(port=8050, host='0.0.0.0')
 
