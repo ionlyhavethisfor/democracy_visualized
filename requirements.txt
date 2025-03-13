@@ -1,0 +1,8 @@
+pandas
+plotly.express
+dash
+dash_daq
+dash_bootstrap_components
+plotly.graph_objects
+sklearn.preprocessing
+numpy
