@@ -185,7 +185,7 @@ s_amer_df["e_regiongeo"] = "South America"
 # =============================================================================
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
-
+server = app.server
 app.layout = dbc.Container([
 
     
@@ -911,5 +911,5 @@ def test_case(test1, test2):
     if test2:
         return test2["points"][0]["x"], rounded, slider_min, slider_max
     return no_update, rounded, slider_min, slider_max
-app.run_server(debug=True, use_reloader=True) 
+app.run_server(port=8050, host='0.0.0.0')
 
