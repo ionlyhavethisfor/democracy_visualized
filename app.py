@@ -42,6 +42,6 @@ default_name = "Turkey"
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
-
+app.layout = html.Div()
 app.run_server(port=8050, host='0.0.0.0')
 
