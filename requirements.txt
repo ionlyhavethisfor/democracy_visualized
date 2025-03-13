@@ -1,8 +1,7 @@
 pandas
-plotly.express
+plotly
 dash
 dash_daq
 dash_bootstrap_components
-plotly.graph_objects
-sklearn.preprocessing
+sklearn
 numpy
